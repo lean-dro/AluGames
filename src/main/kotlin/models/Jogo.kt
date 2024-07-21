@@ -7,7 +7,7 @@ class Jogo(
     val capa:String,
     )
     {
-    val descricao:String = ""
+    var descricao:String = titulo
     override fun toString(): String {
         return "Jogo\n\tTítulo: $titulo\n\tCapa: $capa\n\tDescrição: $descricao"
     }
