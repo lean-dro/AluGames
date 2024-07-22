@@ -15,9 +15,6 @@ class CheapSharkAPI {
             val resultadoParse = runCatching {
                 jogoApiShark = gson.fromJson(json, JogoApiSharkResponse::class.java)
             }
-
-
-
             return jogoApiShark
         }
     }
